@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cone-of-shame",
+	"version": "${version}",
+	"name": "Cone of Shame",
+	"description": "Adds the Cone of Shame to Minecraft",
+	"authors": [
+		"NameJeb"
+	],
+	"contact": {
+		"homepage": "NameJeb.weebly.io/rywy",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cone-of-shame/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.namejeb.coneofshame.ConeOfShame"
+		],
+		"fabric-datagen": [
+			"com.namejeb.coneofshame.ConeOfShameDataGenerator"
+		],
+        "client": [
+            "com.namejeb.coneofshame.ConeOfShameClient"
+        ]
+	},
+	"mixins": [
+		"cone-of-shame.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
