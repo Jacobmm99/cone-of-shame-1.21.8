@@ -1,4 +1,4 @@
-package com.namejeb.coneofshame;
+package com.namejeb.cone_of_shame;
 
 import net.fabricmc.api.ClientModInitializer;
 

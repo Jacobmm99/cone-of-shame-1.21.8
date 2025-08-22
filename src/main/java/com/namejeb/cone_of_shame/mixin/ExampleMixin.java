@@ -1,4 +1,4 @@
-package com.namejeb.coneofshame.mixin;
+package com.namejeb.cone_of_shame.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

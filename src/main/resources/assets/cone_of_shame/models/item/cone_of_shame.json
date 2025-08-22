@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cone_of_shame:item/cone_of_shame"
+  }
+}

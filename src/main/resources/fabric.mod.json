@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.namejeb.coneofshame.ConeOfShame"
+			"com.namejeb.cone_of_shame.ConeOfShame"
 		],
 		"fabric-datagen": [
-			"com.namejeb.coneofshame.ConeOfShameDataGenerator"
+			"com.namejeb.cone_of_shame.ConeOfShameDataGenerator"
 		],
         "client": [
-            "com.namejeb.coneofshame.ConeOfShameClient"
+            "com.namejeb.cone_of_shame.ConeOfShameClient"
         ]
 	},
 	"mixins": [
