@@ -53,7 +53,7 @@ public class ModItems {
         // Get the event for modifying entries in the ingredients group.
         // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.CONE_OF_SHAME));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.TEST_HELMET));
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.TEST_HELMET));
         //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.CONE_OF_SHAME_HELMET));
     }
 }

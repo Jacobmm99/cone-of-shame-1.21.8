@@ -13,6 +13,7 @@ public class ConeOfShame implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
         ModItems.initialize();
 	}
 }
